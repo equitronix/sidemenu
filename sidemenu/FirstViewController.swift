@@ -15,7 +15,6 @@ class FirstViewController: UIViewController, UIViewControllerTransitioningDelega
         sidePanelController.transitioningDelegate = self;
         sidePanelController.modalPresentationStyle = .custom
         self.present(sidePanelController, animated: true, completion: nil)
-        print ("clicked");
     }
     override func viewDidLoad() {
         super.viewDidLoad()

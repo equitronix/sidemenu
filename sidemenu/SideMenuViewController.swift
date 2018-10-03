@@ -20,8 +20,6 @@ class SideMenuViewController: UIViewController {
     }
     
     @objc func handleDismiss(sender: UITapGestureRecognizer? = nil){
-        print("clicked");
-        
         presentingViewController?.dismiss(animated: true, completion: nil)
     }
     
