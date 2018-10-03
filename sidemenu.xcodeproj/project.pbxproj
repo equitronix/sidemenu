@@ -8,20 +8,28 @@
 
 /* Begin PBXBuildFile section */
 		841FB96B2160C03200E81DFD /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB96A2160C03200E81DFD /* AppDelegate.swift */; };
-		841FB96D2160C03200E81DFD /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB96C2160C03200E81DFD /* ViewController.swift */; };
 		841FB9702160C03200E81DFD /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841FB96E2160C03200E81DFD /* Main.storyboard */; };
 		841FB9722160C03500E81DFD /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 841FB9712160C03500E81DFD /* Assets.xcassets */; };
 		841FB9752160C03500E81DFD /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 841FB9732160C03500E81DFD /* LaunchScreen.storyboard */; };
+		841FB97D2164A38F00E81DFD /* FirstViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB97C2164A38F00E81DFD /* FirstViewController.swift */; };
+		841FB97F2164A6DC00E81DFD /* SideMenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB97E2164A6DC00E81DFD /* SideMenuViewController.swift */; };
+		841FB9832164B36900E81DFD /* SidePanelPresenter.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB9822164B36900E81DFD /* SidePanelPresenter.swift */; };
+		841FB9852164BAC100E81DFD /* SidePanelDismisser.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB9842164BAC100E81DFD /* SidePanelDismisser.swift */; };
+		841FB9872164C15A00E81DFD /* PresentationController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 841FB9862164C15A00E81DFD /* PresentationController.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		841FB9672160C03200E81DFD /* sidemenu.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sidemenu.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		841FB96A2160C03200E81DFD /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		841FB96C2160C03200E81DFD /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		841FB96F2160C03200E81DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		841FB9712160C03500E81DFD /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		841FB9742160C03500E81DFD /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		841FB9762160C03500E81DFD /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		841FB97C2164A38F00E81DFD /* FirstViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FirstViewController.swift; sourceTree = "<group>"; };
+		841FB97E2164A6DC00E81DFD /* SideMenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SideMenuViewController.swift; sourceTree = "<group>"; };
+		841FB9822164B36900E81DFD /* SidePanelPresenter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelPresenter.swift; sourceTree = "<group>"; };
+		841FB9842164BAC100E81DFD /* SidePanelDismisser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SidePanelDismisser.swift; sourceTree = "<group>"; };
+		841FB9862164C15A00E81DFD /* PresentationController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PresentationController.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,9 +62,13 @@
 		841FB9692160C03200E81DFD /* sidemenu */ = {
 			isa = PBXGroup;
 			children = (
+				841FB9822164B36900E81DFD /* SidePanelPresenter.swift */,
+				841FB9862164C15A00E81DFD /* PresentationController.swift */,
+				841FB9842164BAC100E81DFD /* SidePanelDismisser.swift */,
 				841FB96A2160C03200E81DFD /* AppDelegate.swift */,
-				841FB96C2160C03200E81DFD /* ViewController.swift */,
 				841FB96E2160C03200E81DFD /* Main.storyboard */,
+				841FB97E2164A6DC00E81DFD /* SideMenuViewController.swift */,
+				841FB97C2164A38F00E81DFD /* FirstViewController.swift */,
 				841FB9712160C03500E81DFD /* Assets.xcassets */,
 				841FB9732160C03500E81DFD /* LaunchScreen.storyboard */,
 				841FB9762160C03500E81DFD /* Info.plist */,
@@ -135,8 +147,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				841FB96D2160C03200E81DFD /* ViewController.swift in Sources */,
+				841FB9852164BAC100E81DFD /* SidePanelDismisser.swift in Sources */,
+				841FB9832164B36900E81DFD /* SidePanelPresenter.swift in Sources */,
+				841FB97F2164A6DC00E81DFD /* SideMenuViewController.swift in Sources */,
+				841FB97D2164A38F00E81DFD /* FirstViewController.swift in Sources */,
 				841FB96B2160C03200E81DFD /* AppDelegate.swift in Sources */,
+				841FB9872164C15A00E81DFD /* PresentationController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
